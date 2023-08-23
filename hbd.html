@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>생일 축하 웹사이트</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        #confetti {
+            position: absolute;
+            pointer-events: none;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>생일 축하해요!</h1>
+        <p>행복한 하루가 되길 바라요.</p>
+        <img src="https://example.com/path-to-your-cake-image.jpg" alt="생일 축하 이미지">
+        <img src="https://example.com/path-to-your-candle-image.png" alt="촛불 이미지">
+    </div>
+    <canvas id="confetti"></canvas>
+    <script>
+        // Confetti animation script (you can use a library for this)
+        // Example: https://www.kirilv.com/canvas-confetti/
+    </script>
+</body>
+</html>
